@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+# Large / generated / private files
+dataset/creditcard.csv
+models/*.pkl
+database/*.db
+logs/*.log
+reports/*
+!reports/.gitkeep
+settings.json
